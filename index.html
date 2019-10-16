@@ -1,14 +1,155 @@
-<!DOCTYPE html>asdsadas
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>mi primer proyecto</title>
-</head>
-<body>
-    <h1>hola mundo</h1>
-    <h2>este es el h2, aca hay un cambio</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempore eaque odio animi deleniti dignissimos officia, architecto harum quidem! Officiis facilis magni ipsa explicabo asperiores quia rem sapiente, voluptates commodi?</p>
-</body>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi primera pagina web</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font: size 13 ;
+      }
+      /*
+        Header
+    */
+      header {
+        background-color: blue;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        list-style:none ;
+      }
+      header a {
+        color: white;
+      }
+
+      }
+      /*
+    Main
+    */
+      main {
+        background-color: grey;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <!--Header-->
+      <header>
+        <a class ="LOGO"href="/">LOGO</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="#">Portafolio</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!--Main-->
+      <main>
+        <!--Inicio-->
+        <section>
+          <h2>Inicio</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sequi
+            facilis corrupti praesentium vitae consectetur laudantium in dolor
+            rem, totam iure ipsa excepturi tenetur cupiditate temporibus modi,
+            voluptatibus commodi alias.
+          </p>
+          <figure>
+            <img src="./Images/Manigoldo.jpg" alt="Inicio" />
+            <figcaption>Manigoldo</figcaption>
+          </figure>
+          <hr />
+        </section>
+        <!--Quienes somos -->
+        <section>
+          <h2>Quienes somos</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+            fuga vel numquam facere optio neque. Cupiditate animi necessitatibus
+            nam quas, laudantium doloremque numquam, nihil odit exercitationem
+            illo ab autem quia.
+          </p>
+          <figure>
+            <img
+              src="./Images/los_caballeros_del_zodiaco_logo.jpg"
+              alt="caballeros del zodiaco"
+            />
+          </figure>
+          <hr />
+        </section>
+        <!--Portafolio-->
+        <section>
+          <h2>Portafolio</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+            aperiam ipsam alias eaque ullam totam mollitia numquam incidunt
+            illum fugit? Nisi, minus exercitationem temporibus praesentium nam
+            id repudiandae. Magni, blanditiis.
+          </p>
+          <figure>
+            <img src="./Images/cloth_geminis.jpg" width="100" alt="geminis" />
+            <figcaption>geminis</figcaption>
+          </figure>
+          <figure>
+            <img src="./Images/cloth_cancer.jpg" width="100" alt="cancer" />
+            <figcaption>cancer</figcaption>
+          </figure>
+          <figure>
+            <img src="./Images/cloth_leo.png" width="100" alt="leo" />
+            <figcaption>leo</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./Images/cloth_sagitario.jpg"
+              width="100"
+              alt="sagitario"
+            />
+            <figcaption>sagitario</figcaption>
+          </figure>
+        </section>
+        <!--Contacto-->
+        <section>
+          <h2>Contacto</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illum
+            tempore facere sequi libero veritatis architecto minima mollitia
+            molestias sed officia iste maxime itaque nesciunt consequuntur
+            deleniti, unde aut obcaecati?
+          </p>
+          <form action="">
+            <input type="text" placeholder="Nombre" />
+            <input type="text" placeholder="Apellido" />
+            <input type="text" placeholder="telefono" />
+            <input type="text" placeholder="email" />
+            <textarea cols="100" rows="10"></textarea>
+            <button>Enviar</button>
+          </form>
+        </section>
+      </main>
+      <!--Footer-->
+      <footer></footer>
+    </div>
+  </body>
 </html>
